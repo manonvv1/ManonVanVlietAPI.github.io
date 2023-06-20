@@ -1,6 +1,6 @@
 function shiba() {
 
-    const data = fetch('http://shibe.online/api/shibes?count='+ shibaCount, {
+    const data = fetch('https://shibe.online/api/shibes?count='+ shibaCount, {
         headers: {
             Accept: "application/json; charset=utf-8",
         },
